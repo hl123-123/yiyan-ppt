@@ -1,0 +1,44 @@
+{
+    "slide_size": {
+        "height":19.05,
+        "width": 33.87
+    },
+    "first_page":{
+        "title_info":{
+        "font_name":"微软雅黑",
+        "font_size":54,
+        "pos_x":4.91,
+        "pos_y":6.49,
+        "height":7.80,
+        "width":23.60
+    }
+    },
+    "catalog_page":{
+        "title_info":{
+        "font_name":"微软雅黑",
+        "font_size":40,
+        "pos_x":3.99,
+        "pos_y":2.09,
+        "height":2.62,
+        "width":3.97    
+    }   
+    },
+    "main_page":{
+        "title_info":{
+            "font_name":"微软雅黑",
+            "font_size":28,
+            "pos_x":3.99,
+            "pos_y":2.79,
+            "height":2.62,
+            "width":25.21    
+        },
+        "content_info":{
+            "font_name":"宋体",
+            "font_size":16,
+            "pos_x":3.99,
+            "pos_y":5.76,
+            "height":9.87,
+            "width":25.21    
+        }
+    }
+}
