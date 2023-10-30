@@ -13,13 +13,15 @@
 
 > 一键生成PPT，基于用户的任务名称生成PPT文字大纲，将文字大纲解析成树的结构，再对该树进行深度遍历搜索，逐一生成对应幻灯片。
 
-> 本项目主要是基于https://github.com/limaoyi1/Auto-PPT， 文本解析成树结构和基于树结构生成PPT的相关代码在./mdtree文件夹下，在此表示感谢！
+> 本项目主要是基于https://github.com/limaoyi1/Auto-PPT ， 文本解析成树结构和基于树结构生成PPT的相关代码在./mdtree文件夹下，在此表示感谢！
 
 > 本项目完全由百度文心一言提供API支持，充分利用了文心一言API在国内生成速度快，效果优秀的优势。
 
 >  PPT涉及的图像来源是通过百度图像搜索爬取的。
 
 ## ⭐ 一键使用
+
+![gradio.png](pptx_static/static/gradio.png)
 
 > 我使用的python版本是3.10,然后主要依赖包在requirements.txt。
 
@@ -28,6 +30,7 @@
 > 请在config.py配置好自己的API_Key和Secret_Key，若不会请参考[获取access_token](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Ilkkrb0i5)。
 
 > gradio界面请一键运行gradio_test.py,就是想一键运行的可以直接运行test.py。
+
 
 
 ## 🧲 项目优势
