@@ -23,7 +23,6 @@ from mdtree.parser import parse_string, Out, Heading
 from mdtree.utils import get_random_theme, get_random_file, read_md_file
 import os
 from mdtree.img_search import get_img
-from duckduckgo_search import ddg_images
 import os
 class Tree2PPT:
     prs: Presentation = None

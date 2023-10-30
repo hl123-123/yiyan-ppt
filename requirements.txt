@@ -1,5 +1,5 @@
 python-pptx
 opencv-python
-Markdown
+markdown
 requests
 gradio

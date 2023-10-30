@@ -51,7 +51,7 @@ with gr.Blocks(title="一键PPT生成") as demo:
     requirement_button1.click(fn=gen_requirement,inputs=[task_name],outputs=[AI_gen_requirement_text])
     knowledge_content = gr.Textbox(label="请输入关于PPT主题更细化的一些信息",show_label=True)
     sub_num = gr.Slider(1, 5,value=2,step=1,label="子主题个数",show_label=True)
-    mode = gr.Slider(1, 12,value=2,step=1,label="模板选择",show_label=True)
+    mode = gr.Slider(1, 2,value=1,step=1,label="模板选择",show_label=True)
     gen_ppt_button = gr.Button("PPT生成")
     c = gr.File(label="PPT下载",show_label=True)
     gen_ppt_button.click(fn=save_knowledge_func,inputs=[task_name,knowledge_content,mode,sub_num],outputs=[c])
