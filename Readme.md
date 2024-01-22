@@ -100,7 +100,3 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=hl123-123/Yiyan-PPT&type=Timeline)](https://star-history.com/#hl123-123/Yiyan-PPT&Timeline)
 
 
-
-## 🔗 交流  & 定制化开发 
-
-详情请欧朋智能。
